@@ -1,0 +1,41 @@
+<nav class="sticky top-0 z-50 bg-[#0f172a]/90 backdrop-blur-md border-b border-sky-900/30 px-6 py-4">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+        
+        <div class="flex items-center gap-3 group cursor-pointer">
+            <div class="bg-sky-500 p-2 rounded-xl group-hover:rotate-12 transition-all duration-300 shadow-lg shadow-sky-500/20">
+                <i data-lucide="cpu" class="text-[#0f172a] w-6 h-6"></i>
+            </div>
+            <h1 class="text-2xl font-black tracking-tighter text-white">
+                RE-<span class="text-sky-400">TECH</span>
+            </h1>
+        </div>
+
+        <div class="hidden md:flex items-center gap-10">
+            <a href="/" class="text-sm font-semibold text-sky-400 hover:text-white transition-colors relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-0.5 after:bg-sky-400">
+                Home
+            </a>
+            <a href="#" class="text-sm font-semibold text-gray-400 hover:text-sky-400 transition-colors">Laptops</a>
+            <a href="#" class="text-sm font-semibold text-gray-400 hover:text-sky-400 transition-colors">Smartphones</a>
+            <a href="#" class="text-sm font-semibold text-gray-400 hover:text-sky-400 transition-colors">Accessories</a>
+        </div>
+
+        <div class="flex items-center gap-3">
+            <button class="p-2 text-gray-400 hover:text-sky-400 hover:bg-sky-400/10 rounded-lg transition-all">
+                <i data-lucide="search" class="w-5 h-5"></i>
+            </button>
+
+            <button class="p-2 text-gray-400 hover:text-sky-400 hover:bg-sky-400/10 rounded-lg transition-all relative">
+                <i data-lucide="shopping-cart" class="w-5 h-5"></i>
+                <span class="absolute top-1 right-1 bg-sky-500 text-[#0f172a] text-[10px] font-bold w-4 h-4 flex items-center justify-center rounded-full">0</span>
+            </button>
+
+            <div class="h-6 w-[1px] bg-gray-800 mx-1"></div>
+
+            <a href="/login" class="bg-sky-500 hover:bg-sky-400 text-[#0f172a] px-5 py-2.5 rounded-xl font-bold text-sm transition-all active:scale-95 flex items-center gap-2 shadow-lg shadow-sky-500/10">
+                <i data-lucide="user-circle" class="w-4 h-4"></i>
+                <span>Login</span>
+            </a>
+        </div>
+
+    </div>
+</nav>
